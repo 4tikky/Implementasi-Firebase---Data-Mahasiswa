@@ -6,7 +6,7 @@ Project ini adalah aplikasi mobile berbasis **React Native (Expo)** yang dibuat 
 * **Platform**: [Expo](https://expo.dev/)
 * **Bahasa Pemrograman**: [TypeScript](https://www.typescriptlang.org/)
 * **Routing/Navigasi**: [Expo Router](https://docs.expo.dev/router/introduction/)
-* **Backend/Database**: Firebase (Akan diimplementasikan)
+* **Backend/Database**: Firebase
 
 ## 🚀 Fitur Utama
 * **Sistem Navigasi**: Menggunakan navigasi berbasis file (*File-based routing*) dengan Tab Bar.
