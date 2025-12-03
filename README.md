@@ -1,51 +1,40 @@
-# Welcome to your Expo app 👋
+# Implementasi Firebase - Data Mahasiswa (Tugas PBP)
+Project ini adalah aplikasi mobile berbasis **React Native (Expo)** yang dibuat untuk memenuhi tugas **Pemrograman Berbasis Platform (PBP)**. Aplikasi ini bertujuan untuk mengimplementasikan integrasi **Firebase** dalam pengelolaan data mahasiswa (CRUD).
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📱 Teknologi yang Digunakan
+* **Framework**: [React Native](https://reactnative.dev/)
+* **Platform**: [Expo](https://expo.dev/)
+* **Bahasa Pemrograman**: [TypeScript](https://www.typescriptlang.org/)
+* **Routing/Navigasi**: [Expo Router](https://docs.expo.dev/router/introduction/)
+* **Backend/Database**: Firebase (Akan diimplementasikan)
 
-## Get started
+## 🚀 Fitur Utama
+* **Sistem Navigasi**: Menggunakan navigasi berbasis file (*File-based routing*) dengan Tab Bar.
+* **Dark/Light Mode**: Mendukung tema gelap dan terang secara otomatis mengikuti pengaturan perangkat.
+* **Manajemen Data Mahasiswa**: (Rencana implementasi) Fitur untuk Menambah, Membaca, Mengubah, dan Menghapus data mahasiswa yang terhubung ke Firebase.
 
-1. Install dependencies
+## 🛠️ Cara Menjalankan Project
+Ikuti langkah-langkah berikut untuk menjalankan project di lokal:
+1.  **Clone Repository** (jika belum):
+    ```bash
+    git clone [https://github.com/username-kamu/nama-repo.git](https://github.com/username-kamu/nama-repo.git)
+    cd nama-folder-project
+    ```
+2.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Jalankan Aplikasi**:
+    ```bash
+    npx expo start
+    ```
+4.  **Scan QR Code**:
+    * Gunakan aplikasi **Expo Go** di Android/iOS untuk scan QR code yang muncul di terminal.
+    * Atau tekan `w` untuk membuka di browser, `a` untuk Android Emulator, `i` untuk iOS Simulator.
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-"# Implementasi-Firebase---Data-Mahasiswa" 
+## 📝 Catatan
+* Project ini saat ini masih berupa *starter template* menggunakan Expo Router.
+* Library Firebase belum terinstall di `package.json`. Untuk melanjutkan implementasi, perlu dilakukan instalasi firebase:
+    ```bash
+    npx expo install firebase
+    ```
