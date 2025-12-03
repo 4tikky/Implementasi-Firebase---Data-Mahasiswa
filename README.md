@@ -40,34 +40,3 @@ Ikuti langkah-langkah berikut untuk menjalankan project di lokal:
     ```bash
     npx expo install firebase @react-native-async-storage/async-storage expo-linear-gradient
     ```
-    
-## 📂 Struktur Folder
-Berikut adalah struktur  dari kode program ini:
-/
-├── .expo/               # Folder cache & konfigurasi internal Expo
-├── .vscode/             # Konfigurasi editor VS Code
-├── app/                 # Folder utama untuk Routing/Screen (Expo Router)
-│   ├── (tabs)/          # Screen yang menggunakan Bottom Tab Navigation
-│   │   ├── _layout.tsx  # Konfigurasi Tab Bar
-│   │   ├── index.tsx    # Halaman Utama (Data Mahasiswa)
-│   │   └── explore.tsx  # Halaman Explore
-│   ├── _layout.tsx      # Konfigurasi Layout & Navigasi Utama (Stack)
-│   ├── login.tsx        # Halaman Login
-│   ├── register.tsx     # Halaman Registrasi
-│   └── modal.tsx        # Contoh halaman Modal
-├── assets/              # Aset statis (Gambar, Icon, Font)
-├── components/          # Komponen UI reusable (ThemedText, ThemedView, dll)
-├── constants/           # Konstanta global (Colors, Theme)
-├── hooks/               # Custom React Hooks (useColorScheme, dll)
-├── node_modules/        # Folder dependency library (jangan diubah manual)
-├── scripts/             # Script utilitas (misal: reset-project)
-├── .gitignore           # Daftar file yang tidak di-upload ke Git
-├── app.json             # Konfigurasi global Expo (Nama App, Icon, Splash Screen)
-├── eslint.config.js     # Konfigurasi ESLint (Pengecekan kode)
-├── expo-env.d.ts        # Definisi tipe TypeScript untuk lingkungan Expo
-├── firebase.js          # Konfigurasi & inisialisasi koneksi Firebase
-├── package.json         # Daftar library/dependency & script project
-├── package-lock.json    # Kunci versi dependency agar konsisten
-├── README.md            # Dokumentasi proyek ini
-├── storage.ts           # Helper untuk menyimpan sesi login (AsyncStorage)
-└── tsconfig.json        # Konfigurasi TypeScript compiler
